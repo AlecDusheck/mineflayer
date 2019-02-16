@@ -50,6 +50,7 @@ function createBot (options = {}) {
   options.username = options.username || 'Player'
   options.version = options.version || false
   options.plugins = options.plugins || {}
+  options.bypassNetworkCheck = options.bypassNetworkCheck || false
   options.loadInternalPlugins = options.loadInternalPlugins !== false
   const bot = new Bot()
 
